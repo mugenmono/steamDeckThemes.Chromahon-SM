@@ -2,7 +2,7 @@
   "name": "CapyMenu (Steam Menu)",
   "display_name": "Chromahon (Steam Menu)",
   "author": "Mugen",
-  "version": "v2.1.0",
+  "version": "v2.1.1",
   "manifest_version": 6,
   "inject": {
     "common.css": [
