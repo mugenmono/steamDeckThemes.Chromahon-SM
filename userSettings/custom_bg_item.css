@@ -8,9 +8,23 @@
 Main panel
 --- */
 
+@keyframes _1HnqFT3fbAw0ADaVlUzeNn {
+    0% {
+        background: var(--chromahonSM__bgHighlightColor);
+    }
+    100% {
+        background: var(--chromahonSM__bgHighlightColor);
+    }
+}
+@keyframes _1HTvA0ji8Y-wN-gFU8e48c {
+    0% {
+        background: var(--chromahonSM__bgHighlightColor);
+    }
+    100% {
+        background: var(--chromahonSM__bgHighlightColor);
+    }
+}
 
-
-.mainmenu_Item_2w9Tp.gpfocus, /* main panel */
 .mainmenuapprunning_NavigationMenuItem_1G0K4.gpfocus.gpfocuswithin /* running app menu */ {
     background: var(--chromahonSM__bgHighlightColor) !important;
 }
