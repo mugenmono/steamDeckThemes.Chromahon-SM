@@ -188,7 +188,7 @@
             "MainMenu"
           ]
         },
-        "⚙️ Gradient... (disables transparency slider)": {
+        "Gradient... (disables transparency slider)": {
           "userSettings/custom_bg_main.css": [
             "MainMenu"
           ]
@@ -198,7 +198,7 @@
         {
           "name": "Gradient color 1",
           "type": "color-picker",
-          "on": "⚙️ Gradient... (disables transparency slider)",
+          "on": "Gradient... (disables transparency slider)",
           "default": "#34e8ebFF",
           "css_variable": "capySteam_mainGrad1",
           "tabs": [
@@ -208,7 +208,7 @@
         {
           "name": "Gradient color 2",
           "type": "color-picker",
-          "on": "⚙️ Gradient... (disables transparency slider)",
+          "on": "Gradient... (disables transparency slider)",
           "default": "#34e8ebFF",
           "css_variable": "capySteam_mainGrad2",
           "tabs": [
@@ -218,7 +218,7 @@
         {
           "name": "Gradient color 3",
           "type": "color-picker",
-          "on": "⚙️ Gradient... (disables transparency slider)",
+          "on": "Gradient... (disables transparency slider)",
           "default": "#34e8ebFF",
           "css_variable": "capySteam_mainGrad3",
           "tabs": [
@@ -345,7 +345,7 @@
             "MainMenu"
           ]
         },
-        "⚙️ Gradient... (disables transparency slider)": {
+        "Gradient... (disables transparency slider)": {
           "userSettings/custom_bg_item.css": [
             "MainMenu"
           ]
@@ -355,7 +355,7 @@
         {
           "name": "Gradient color 1",
           "type": "color-picker",
-          "on": "⚙️ Gradient... (disables transparency slider)",
+          "on": "Gradient... (disables transparency slider)",
           "default": "#34e8ebFF",
           "css_variable": "capySteam_itemGrad1",
           "tabs": [
@@ -365,7 +365,7 @@
         {
           "name": "Gradient color 2",
           "type": "color-picker",
-          "on": "⚙️ Gradient... (disables transparency slider)",
+          "on": "Gradient... (disables transparency slider)",
           "default": "#34e8ebFF",
           "css_variable": "capySteam_itemGrad2",
           "tabs": [
@@ -375,7 +375,7 @@
         {
           "name": "Gradient color 3",
           "type": "color-picker",
-          "on": "⚙️ Gradient... (disables transparency slider)",
+          "on": "Gradient... (disables transparency slider)",
           "default": "#34e8ebFF",
           "css_variable": "capySteam_itemGrad3",
           "tabs": [
@@ -430,13 +430,13 @@
             "MainMenu"
           ]
         },
-        "⚙️ Custom...": {}
+        "Custom...": {}
       },
       "components": [
         {
           "name": "Text color",
           "type": "color-picker",
-          "on": "⚙️ Custom...",
+          "on": "Custom...",
           "default": "#34e8ebFF",
           "css_variable": "capySteam_mainTextColor",
           "tabs": [
@@ -491,13 +491,13 @@
             "MainMenu"
           ]
         },
-        "⚙️ Custom...": {}
+        "Custom...": {}
       },
       "components": [
         {
           "name": "Focused text color",
           "type": "color-picker",
-          "on": "⚙️ Custom...",
+          "on": "Custom...",
           "default": "#34e8ebFF",
           "css_variable": "capySteam_hl_mainTextColor",
           "tabs": [
@@ -552,13 +552,13 @@
             "MainMenu"
           ]
         },
-        "⚙️ Custom...": {}
+        "Custom...": {}
       },
       "components": [
         {
           "name": "Icon color",
           "type": "color-picker",
-          "on": "⚙️ Custom...",
+          "on": "Custom...",
           "default": "#34e8ebFF",
           "css_variable": "capySteam_iconColor",
           "tabs": [
@@ -613,13 +613,13 @@
             "MainMenu"
           ]
         },
-        "⚙️ Custom...": {}
+        "Custom...": {}
       },
       "components": [
         {
           "name": "Focused icon color",
           "type": "color-picker",
-          "on": "⚙️ Custom...",
+          "on": "Custom...",
           "default": "#34e8ebFF",
           "css_variable": "capySteam_hl_iconColor",
           "tabs": [
@@ -674,7 +674,7 @@
             "MainMenu"
           ]
         },
-        "⚙️ Gradient...": {
+        "Gradient...": {
           "userSettings/custom_active_mark.css": [
             "MainMenu"
           ]
@@ -684,7 +684,7 @@
         {
           "name": "Marker color 1",
           "type": "color-picker",
-          "on": "⚙️ Gradient...",
+          "on": "Gradient...",
           "default": "#34e8ebFF",
           "css_variable": "capySteam_markerGrad1",
           "tabs": [
@@ -694,7 +694,7 @@
         {
           "name": "Marker color 2",
           "type": "color-picker",
-          "on": "⚙️ Gradient...",
+          "on": "Gradient...",
           "default": "#34e8ebFF",
           "css_variable": "capySteam_markerGrad2",
           "tabs": [
@@ -704,7 +704,7 @@
         {
           "name": "Marker color 3",
           "type": "color-picker",
-          "on": "⚙️ Gradient...",
+          "on": "Gradient...",
           "default": "#34e8ebFF",
           "css_variable": "capySteam_markerGrad3",
           "tabs": [
@@ -759,13 +759,13 @@
             "MainMenu"
           ]
         },
-        "⚙️ Custom...": {}
+        "Custom...": {}
       },
       "components": [
         {
           "name": "Progress bar color",
           "type": "color-picker",
-          "on": "⚙️ Custom...",
+          "on": "Custom...",
           "default": "#34e8ebFF",
           "css_variable": "capySteam_progressBarColor",
           "tabs": [
