@@ -1,5 +1,5 @@
 :root {
-    --capySteam_bgHighlightColor: linear-gradient(90deg, var(--capySteam_itemGrad1), var(--capySteam_itemGrad2), var(--capySteam_itemGrad3)) !important;
+    --chromahonSM__bgHighlightColor: linear-gradient(90deg, var(--chromahonSM__itemGrad1), var(--chromahonSM__itemGrad2), var(--chromahonSM__itemGrad3)) !important;
 }
 
 
@@ -12,12 +12,12 @@ Main panel
 
 .mainmenu_Item_2w9Tp.gpfocus, /* main panel */
 .mainmenuapprunning_NavigationMenuItem_1G0K4.gpfocus.gpfocuswithin /* running app menu */ {
-    background: var(--capySteam_bgHighlightColor) !important;
+    background: var(--chromahonSM__bgHighlightColor) !important;
 }
 
 /* Color correction for running app menu */
 .mainmenuapprunning_NavigationMenuItem_1G0K4.gpfocus.gpfocuswithin {
-    color: var(--capySteam_hl_mainTextColor) !important;
+    color: var(--chromahonSM__hl_mainTextColor) !important;
     mix-blend-mode: normal !important;
 }
 
@@ -31,12 +31,12 @@ Steam input
 
 /* Key, indicators & labels, selected */
 .controllerconfiguratorsummary_ControllerConfiguratorSummary_3TvBV .controllerconfiguratorsummary_DirectAccessButton_QAVEl:focus {
-    background: var(--capySteam_bgHighlightColor) !important;
+    background: var(--chromahonSM__bgHighlightColor) !important;
 }
 
 /* Controller settings button, highlight */
 .controllerconfiguratorsummary_ControllerConfiguratorSummary_3TvBV .controllerconfiguratorsummary_BottomControlsSections_2H5S6 .controllerconfiguratorsummary_ConfigButton_1T2Rs.gpfocus {
-    background: var(--capySteam_bgHighlightColor) !important;
+    background: var(--chromahonSM__bgHighlightColor) !important;
 }
 
 /* Dropdown buttons, selected */
@@ -50,12 +50,12 @@ button.gamepaddialog_Button_1kn70.DialogButton:hover.gpfocus,
 button.gamepaddialog_Button_1kn70.DialogButton:hover:active,
 button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.gpfocus,
 button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover:active {
-    background: var(--capySteam_bgHighlightColor) !important;
+    background: var(--chromahonSM__bgHighlightColor) !important;
 }
 
 /* Text field, selected */
 .gamepaddialog_BasicTextInput_3GCBi.gpfocus, .gamepaddialog_BasicTextInput_3GCBi.gpfocus:hover {
-    background: var(--capySteam_bgHighlightColor);
+    background: var(--chromahonSM__bgHighlightColor);
 }
 
 
@@ -68,16 +68,16 @@ Achievements
 
 /* Achievement item, selected */
 .achievementslist_AchievementListItemBase_2Kmn7.gpfocus.gpfocuswithin .achievementslist_Container_cvw8D {
-    background: var(--capySteam_bgHighlightColor) !important;
+    background: var(--chromahonSM__bgHighlightColor) !important;
 }
 
 /* Tabs list, selected */
 .gamepadtabbedpage_Tab_3eEbS.gpfocus {
-    background: var(--capySteam_bgHighlightColor);
+    background: var(--chromahonSM__bgHighlightColor);
 }
 
 .achievementslist_GlobalAchievementListItem_316Uo.gpfocus.gpfocuswithin {
-    background: var(--capySteam_bgHighlightColor);
+    background: var(--chromahonSM__bgHighlightColor);
 }
 
 
@@ -90,12 +90,12 @@ Guides
 
 /* Guide item, selected */
 .overlayguides_GuideListItemBase_1etIu.gpfocus.gpfocuswithin {
-    background: var(--capySteam_bgHighlightColor);
+    background: var(--chromahonSM__bgHighlightColor);
 }
 
 /* Table of contents, chapter title */
 .overlayguides_TOCEntry_2bjWQ.gpfocus.gpfocuswithin {
-    background: var(--capySteam_bgHighlightColor);
+    background: var(--chromahonSM__bgHighlightColor);
 }
 
 
@@ -107,9 +107,9 @@ Notes
 
 
 .gamepadpagedsettings_PagedSettingsDialog_PageListItem_1ix7r:focus {
-    background: var(--capySteam_bgHighlightColor) !important;
+    background: var(--chromahonSM__bgHighlightColor) !important;
 }
 
 .gamepadpagedsettings_PagedSettingsDialog_PageListItem_1ix7r.gamepadpagedsettings_Active_22LLB {
-    background: var(--capySteam_bgHighlightColor);
+    background: var(--chromahonSM__bgHighlightColor);
 }

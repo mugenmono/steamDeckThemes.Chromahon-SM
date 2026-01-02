@@ -1,5 +1,5 @@
 /* ---
-CapyMenu (SteamMenu)
+Chromahon (Steam Menu)
 Achievements
 --- */
 
@@ -7,7 +7,7 @@ Achievements
 
 /* Filled progress bar */
 .progressbar_ProgressBar_1-nHj .progressbar_Percent_2_0Jo {
-  background: var(--capySteam_progressBarColor) !important;
+  background: var(--chromahonSM__progressBarColor) !important;
 }
 
 /* Empty progress bar */
@@ -20,7 +20,7 @@ Achievements
 
 /* Header section, game title */
 .achievementsheader_Container_2iGYY .achievementsheader_Title_3wNyl {
-  color: var(--capySteam_mainTextColor);
+  color: var(--chromahonSM__mainTextColor);
 }
 
 /* Header section, achievement stats */
@@ -31,22 +31,22 @@ Achievements
 /* Header section, achievement stats, content */
 .achievementsheader_Stat_28omE .achievementsheader_StatLabelAndValue_C17Op .achievementsheader_Label_17zZl,
 .achievementsheader_Stat_28omE .achievementsheader_StatLabelAndValue_C17Op .achievementsheader_TextValue_3SUIg {
-  color: var(--capySteam_mainTextColor);
+  color: var(--chromahonSM__mainTextColor);
 }
 
 /* Sub-header text (e.g. percentage of all players) */
 .achievementslist_GlobalAchievementsListHeader_2q8Mm .achievementslist_HeaderText_OAV6Q {
-  color: var(--capySteam_mainTextColor);
+  color: var(--chromahonSM__mainTextColor);
 }
 
 /* Sub-header text (misc) */
 .achievementspage_MyAchievementsHeader_2UpV2 .achievementspage_Label_2LSKt {
-  color: var(--capySteam_mainTextColor);
+  color: var(--chromahonSM__mainTextColor);
 }
 
 /* e.g. Locked Achievements text */
 .achievementslist_ListTitle_IM0uE {
-  color: var(--capySteam_mainTextColor);
+  color: var(--chromahonSM__mainTextColor);
 }
 
 /* Achievement list */
@@ -59,15 +59,15 @@ Achievements
   background: none;
 }
 .achievementslist_AchievementListItemBase_2Kmn7 .achievementslist_Container_cvw8D {
-    background: rgb(var(--capySteam_mainBgColor));
+    background: rgb(var(--chromahonSM__mainBgColor));
 }
 
 /* Achievement item, selected */
 .achievementslist_AchievementListItemBase_2Kmn7.gpfocus.gpfocuswithin .achievementslist_Container_cvw8D {
-    background: rgb(var(--capySteam_bgHighlightColor));
+    background: rgb(var(--chromahonSM__bgHighlightColor));
 }
 .achievementslist_GlobalAchievementListItem_316Uo.gpfocus.gpfocuswithin {
-    background: rgb(var(--capySteam_bgHighlightColor));
+    background: rgb(var(--chromahonSM__bgHighlightColor));
 }
 
 /* Achievement content */
@@ -75,7 +75,7 @@ Achievements
 .achievementslist_AchievementDescription_1WP2Y,
 .achievementslist_AchievementGlobalPercentage_VQbek,
 .achievementslist_UnlockDate_2fFW2 {
-  color: var(--capySteam_mainTextColor);
+  color: var(--chromahonSM__mainTextColor);
 }
 
 /* Achievement content, selected */
@@ -83,39 +83,39 @@ Achievements
 .achievementslist_AchievementListItemBase_2Kmn7.gpfocus.gpfocuswithin .achievementslist_AchievementDescription_1WP2Y,
 .achievementslist_AchievementListItemBase_2Kmn7.gpfocus.gpfocuswithin .achievementslist_AchievementGlobalPercentage_VQbek,
 .achievementslist_AchievementListItemBase_2Kmn7.gpfocus.gpfocuswithin .achievementslist_UnlockDate_2fFW2 {
-  color: var(--capySteam_hl_mainTextColor);
+  color: var(--chromahonSM__hl_mainTextColor);
 }
 
 /* Achievement in progress */
 .achievementslist_VerticalContent_mW5BY.achievementslist_AlignEnd_33MZ9 .achievementslist_ProgressCount_2LZ4v {
-  color: var(--capySteam_mainTextColor);
+  color: var(--chromahonSM__mainTextColor);
 }
 .achievementslist_AchievementListItemBase_2Kmn7.gpfocus.gpfocuswithin .achievementslist_VerticalContent_mW5BY.achievementslist_AlignEnd_33MZ9 .achievementslist_ProgressCount_2LZ4v {
-  color: var(--capySteam_hl_mainTextColor);
+  color: var(--chromahonSM__hl_mainTextColor);
 }
 
 /* Tabs list, regular */
 .gamepadtabbedpage_Tab_3eEbS {
-  color: var(--capySteam_mainTextColor);
+  color: var(--chromahonSM__mainTextColor);
 }
 
 /* Tabs list, focused */
 .gamepadtabbedpage_Tab_3eEbS.gamepadtabbedpage_Selected_3Gp1b {
-  color: var(--capySteam_mainTextColor);
-  box-shadow: 0px 0px 0px 2px var(--capySteam_mainTextColor);
+  color: var(--chromahonSM__mainTextColor);
+  box-shadow: 0px 0px 0px 2px var(--chromahonSM__mainTextColor);
   background: none;
 }
 
 /* Tabs list, selected */
 .gamepadtabbedpage_Tab_3eEbS.gpfocus {
-  background: rgba(var(--capySteam_bgHighlightColor), var(--capySteam_bgHighlightOpacity));
-  color: var(--capySteam_hl_mainTextColor);
-  box-shadow: 0px 0px 0px 2px var(--capySteam_hl_mainTextColor);
+  background: rgba(var(--chromahonSM__bgHighlightColor), var(--chromahonSM__bgHighlightOpacity));
+  color: var(--chromahonSM__hl_mainTextColor);
+  box-shadow: 0px 0px 0px 2px var(--chromahonSM__hl_mainTextColor);
 }
 
 /* Global achievements, item */
 .achievementslist_GlobalAchievementListItem_316Uo {
-  background: rgb(var(--capySteam_mainBgColor));
+  background: rgb(var(--chromahonSM__mainBgColor));
 }
 
 /* Global achievements, thick progress bar */
@@ -127,17 +127,17 @@ Achievements
 .achievementslist_GlobalAchievementListItem_316Uo .achievementslist_Content_UWkKt .achievementslist_Info_Zoy4C .achievementslist_Title_3LS_N,
 .achievementslist_GlobalAchievementListItem_316Uo .achievementslist_Content_UWkKt .achievementslist_Info_Zoy4C .achievementslist_Description_231ll,
 .achievementslist_GlobalAchievementListItem_316Uo .achievementslist_Content_UWkKt .achievementslist_Percent_17WmA {
-  color: var(--capySteam_mainTextColor);
+  color: var(--chromahonSM__mainTextColor);
 }
 
 /* Global achievements, item, content, selected */
 .achievementslist_GlobalAchievementListItem_316Uo.gpfocus.gpfocuswithin .achievementslist_Content_UWkKt .achievementslist_Info_Zoy4C .achievementslist_Title_3LS_N,
 .achievementslist_GlobalAchievementListItem_316Uo.gpfocus.gpfocuswithin .achievementslist_Content_UWkKt .achievementslist_Info_Zoy4C .achievementslist_Description_231ll,
 .achievementslist_GlobalAchievementListItem_316Uo.gpfocus.gpfocuswithin .achievementslist_Content_UWkKt .achievementslist_Percent_17WmA {
-  color: var(--capySteam_hl_mainTextColor);
+  color: var(--chromahonSM__hl_mainTextColor);
 }
 
 /* Global achievements, unlocked checkmark */
 .achievementslist_UnlockContainer_1vd1p svg {
-  color: var(--capySteam_mainTextColor);
+  color: var(--chromahonSM__mainTextColor);
 }

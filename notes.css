@@ -1,5 +1,5 @@
 /* ---
-CapyMenu (SteamMenu)
+Chromahon (Steam Menu)
 Notes
 --- */
 
@@ -7,31 +7,31 @@ Notes
 
 /* Notes list */
 .gamepadpagedsettings_PagedSettingsDialog_PageListColumn_2EZ3o {
-    background: rgba(var(--capySteam_mainBgColor), var(--capySteam_mainBgOpacity));
+    background: rgba(var(--chromahonSM__mainBgColor), var(--chromahonSM__mainBgOpacity));
     border-right: none;
 }
 
 /* Note item */
 .gamepadpagedsettings_PagedSettingsDialog_PageListItem_1ix7r {
-    color: var(--capySteam_mainTextColor);
+    color: var(--chromahonSM__mainTextColor);
 }
 
 /* Note item, selected */
 .gamepadpagedsettings_PagedSettingsDialog_PageListItem_1ix7r:focus {
-    background: rgba(var(--capySteam_bgHighlightColor), var(--capySteam_bgHighlightOpacity)) !important;
-      color: var(--capySteam_hl_mainTextColor);
+    background: rgba(var(--chromahonSM__bgHighlightColor), var(--chromahonSM__bgHighlightOpacity)) !important;
+      color: var(--chromahonSM__hl_mainTextColor);
       
 }
 
 /* Note item, focused */
 .gamepadpagedsettings_PagedSettingsDialog_PageListItem_1ix7r.gamepadpagedsettings_Active_22LLB {
-    background: rgba(var(--capySteam_bgHighlightColor), var(--capySteam_bgHighlightOpacity));
-    color: var(--capySteam_hl_mainTextColor);
+    background: rgba(var(--chromahonSM__bgHighlightColor), var(--chromahonSM__bgHighlightOpacity));
+    color: var(--chromahonSM__hl_mainTextColor);
 }
 
 /* Notes container */
 .gamepadpagedsettings_PagedSettingDialog_ContentColumn_3JPle {
-    background: rgba(var(--capySteam_mainBgColor), var(--capySteam_mainBgOpacity));
+    background: rgba(var(--chromahonSM__mainBgColor), var(--chromahonSM__mainBgOpacity));
 }
 
 /* Notes textarea */
@@ -42,10 +42,10 @@ Notes
 
 /* Notes textarea, user input */
 .gamenotes_NoteEditorArea_3WOF4 {
-    color: var(--capySteam_mainTextColor);
+    color: var(--chromahonSM__mainTextColor);
 }
 
 /* New note svg */
 svg.SVGIcon_Button.SVGIcon_TextNewNote {
-    fill: var(--capySteam_mainTextColor);
+    fill: var(--chromahonSM__mainTextColor);
 }
