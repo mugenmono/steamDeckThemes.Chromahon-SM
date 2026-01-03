@@ -1,8 +1,0 @@
-:root {
-    --chromahonSM__markerColor: linear-gradient(180deg, var(--chromahonSM__markerGrad1), var(--chromahonSM__markerGrad2), var(--chromahonSM__markerGrad3)) !important;
-}
-
-/* main panel */ [class="_1BbM8Qq8OL5N8gL4PYH397"] [class="_1uLVHdiiCg78BRnhqLxUID"],
-/* running app panel */ ._2b6L36XnXUqFHHkGE4_2mv ._3Il1BD4p9lccpjISQKhR1X {
-    background: var(--chromahonSM__markerColor) !important;
-}
