@@ -3,7 +3,7 @@
   "display_name": "Chromahon (Steam Menu)",
   "author": "Mugen",
   "version": "v2.1.1",
-  "manifest_version": 6,
+  "manifest_version": 9,
   "inject": {
     "common.css": [
       "MainMenu"
