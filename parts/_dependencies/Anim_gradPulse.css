@@ -1,0 +1,8 @@
+@keyframes chromahonSM__Anim_gradPulse {
+    0%, 100% {
+        background-size: var(--chromahonSM__AnimParam_gradPulse-x1) var(--chromahonSM__AnimParam_gradPulse-y1);
+    }
+    50% {
+        background-size: var(--chromahonSM__AnimParam_gradPulse-x2) var(--chromahonSM__AnimParam_gradPulse-y2);
+    }
+}

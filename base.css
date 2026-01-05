@@ -1,0 +1,68 @@
+/* ---
+Chromahon (Steam Menu)
+--- */
+
+
+/* ---
+Primary Panel
+--- */
+
+/* Container */
+._23IDiI-F_FxXotrgpY71r8 {
+    justify-content: var(--chromahonSM__Opt_primaryPanel-position);
+    background: var(--chromahonSM__primaryPanel-bg);
+    animation: var(--chromahonSM__Opt_toggleAnim_primaryPanel-bg, none);
+
+    /* Remove bottom shadow */
+    [class="_3kHmfV9Pej6JhVOBMGhcgq"] {
+        display: none;
+    }
+
+    /* Remove running app separator */
+    ._33RkHXjHPoThT-d4uAt-n6 {
+        display: none;
+    }
+}
+
+/* Item */
+[class="_2ADpTpv53dcY1uFpMWO1KT"] {
+    color: var(--chromahonSM__primaryPanel-item-label); /* label */
+}
+
+[class="_3xZ3ZujYllkNRr5UdDfNmz"] {
+    color: var(--chromahonSM__primaryPanel-item-svg) !important; /* svg */
+}
+
+/* Focused Item */
+[class="_1BbM8Qq8OL5N8gL4PYH397"]:has(.gpfocus) {
+    background: var(--chromahonSM__primaryPanel-itemFocus-bg);
+    animation: var(--chromahonSM__Opt_toggleAnim_primaryPanel-itemFocus-bg, none);
+}
+
+.gpfocus [class="_2ADpTpv53dcY1uFpMWO1KT"] {
+    color: var(--chromahonSM__primaryPanel-itemFocus-label); /* label */
+}
+
+.gpfocus [class="_3xZ3ZujYllkNRr5UdDfNmz"] {
+    color: var(--chromahonSM__primaryPanel-itemFocus-svg) !important; /* svg */
+}
+
+/* 'Disable' anim on item: Active & Focused */
+@keyframes _1HTvA0ji8Y-wN-gFU8e48c {
+    0%, 100% {
+        background: transparent;
+    }
+}
+
+/* 'Disable' anim on item: Focused */
+@keyframes _1HnqFT3fbAw0ADaVlUzeNn {
+    0%, 100% {
+        background: transparent;
+    }
+}
+
+/* Active tab indicator */
+[class="_1BbM8Qq8OL5N8gL4PYH397"] [class="_1uLVHdiiCg78BRnhqLxUID"] {
+    background: var(--chromahonSM__primaryPanel-tabIndicator) !important;
+    animation: var(--chromahonSM__Opt_toggleAnim_primaryPanel-tabIndicator, none) !important;
+}

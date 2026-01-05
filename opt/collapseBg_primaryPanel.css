@@ -1,0 +1,10 @@
+/* Main Menu container */
+._3vzvOyI0h9mIihOEtO6wZ2 {
+    align-items: var(--chromahonSM__Opt_primaryPanel-position);
+}
+
+/* Primary Panel */
+._23IDiI-F_FxXotrgpY71r8 {
+    justify-content: center; /* BPM's default value */
+    height: fit-content;
+}
