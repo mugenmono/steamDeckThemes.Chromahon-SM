@@ -1,20 +1,20 @@
 /* Primary Panel */
 ._23IDiI-F_FxXotrgpY71r8 {
     padding: .5em 0;
-    border-radius: 24px;
+    border-radius: var(--chromahonSM__Opt_toggleRound_hard-radius);
     align-items: center;
 }
 
 /* Primary Panel > Item */
 [class="_1BbM8Qq8OL5N8gL4PYH397"] {
-    border-radius: 18px;
+    border-radius: var(--chromahonSM__Opt_toggleRound_strong-radius);
     width: calc(100% - 1em);
 }
 
 /* Secondary Panel */
 ._12NNtyso3nbzJGi2XxHzcN {
-    border-top-left-radius: 24px;
-    border-bottom-left-radius: 24px;
+    border-top-left-radius: var(--chromahonSM__Opt_toggleRound_hard-radius);
+    border-bottom-left-radius: var(--chromahonSM__Opt_toggleRound_hard-radius);
 }
 
 /* Secondary Panel > Fix item placement when panel is collapsed */
@@ -29,6 +29,6 @@
 
 /* Secondary Panel > Item */
 ._2b6L36XnXUqFHHkGE4_2mv {
-    border-radius: 12px;
+    border-radius: var(--chromahonSM__Opt_toggleRound_moderate-radius);
     overflow: hidden;
 }

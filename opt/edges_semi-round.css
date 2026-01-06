@@ -1,11 +1,11 @@
 /* Primary Panel */
 ._23IDiI-F_FxXotrgpY71r8 {
-    border-top-right-radius: 24px;
-    border-bottom-right-radius: 24px;
+    border-top-right-radius: var(--chromahonSM__Opt_toggleRound_hard-radius);
+    border-bottom-right-radius: var(--chromahonSM__Opt_toggleRound_hard-radius);
 }
 
 /* Secondary Panel */
 ._12NNtyso3nbzJGi2XxHzcN {
-    border-top-left-radius: 24px;
-    border-bottom-left-radius: 24px;
+    border-top-left-radius: var(--chromahonSM__Opt_toggleRound_hard-radius);
+    border-bottom-left-radius: var(--chromahonSM__Opt_toggleRound_hard-radius);
 }

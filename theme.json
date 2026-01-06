@@ -18,9 +18,11 @@
                 "Default": {
                 },
                 "Semi-Round": {
+                    "opt/edges_common.css": [],
                     "opt/edges_semi-round.css": []
                 },
                 "Round": {
+                    "opt/edges_common.css": [],
                     "opt/edges_round.css": []
                 }
             }
