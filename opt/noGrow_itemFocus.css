@@ -1,3 +1,10 @@
+/* Primary Panel */
 [class="_1BbM8Qq8OL5N8gL4PYH397"] [role="menuitem"].gpfocus {
+    transform: none;
+}
+
+/* Secondary Panel */
+._2b6L36XnXUqFHHkGE4_2mv.gpfocus,
+._2b6L36XnXUqFHHkGE4_2mv._1U3OjZG3cOt5OhO_lKAXI0 {
     transform: none;
 }

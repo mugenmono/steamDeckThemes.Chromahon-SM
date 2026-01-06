@@ -1,4 +1,12 @@
+/* Primary Panel */
 [class="_1BbM8Qq8OL5N8gL4PYH397"] [class="_1uLVHdiiCg78BRnhqLxUID"] {
     height: 100% !important;
+    border-radius: 0;
+}
+
+/* Secondary Panel */
+._2b6L36XnXUqFHHkGE4_2mv ._3Il1BD4p9lccpjISQKhR1X {
+    top: 0; left: 0;
+    height: 100%;
     border-radius: 0;
 }

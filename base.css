@@ -66,3 +66,51 @@ Primary Panel
     background: var(--chromahonSM__primaryPanel-tabIndicator) !important;
     animation: var(--chromahonSM__Opt_toggleAnim_primaryPanel-tabIndicator, none) !important;
 }
+
+/* ---
+Secondary Panel
+Resume game, Controller settings, etc.
+--- */
+
+/* Container */
+._12NNtyso3nbzJGi2XxHzcN {
+    background: var(--chromahonSM__secondaryPanel-bg);
+    animation: var(--chromahonSM__Opt_toggleAnim_secondaryPanel-bg, none);
+    border: none;
+    justify-content: space-evenly;
+
+    /* Remove top gradient */
+    &::before {
+        background: none;
+    }
+}
+
+/* Running app logo */
+img._1YOtw_FX984Co0vVkeUTDc {
+    transform: scale(1.6);
+}
+
+/* Item Labels */
+._2b6L36XnXUqFHHkGE4_2mv,
+._2b6L36XnXUqFHHkGE4_2mv._1U3OjZG3cOt5OhO_lKAXI0 {
+    color: var(--chromahonSM__secondaryPanel-item-label);
+}
+
+/* Active Item Label */
+._2b6L36XnXUqFHHkGE4_2mv._1U3OjZG3cOt5OhO_lKAXI0 {
+    font-weight: bold;
+}
+
+/* Focused Item */
+._2b6L36XnXUqFHHkGE4_2mv.gpfocus {
+    background: var(--chromahonSM__secondaryPanel-itemFocus-bg);
+    color: var(--chromahonSM__secondaryPanel-itemFocus-label);
+    mix-blend-mode: normal;
+    animation: var(--chromahonSM__Opt_toggleAnim_secondaryPanel-itemFocus-bg, none);
+}
+
+/* Active Tab Indicator */
+._2b6L36XnXUqFHHkGE4_2mv ._3Il1BD4p9lccpjISQKhR1X {
+    background: var(--chromahonSM__secondaryPanel-tabIndicator);
+    animation: var(--chromahonSM__Opt_toggleAnim_secondaryPanel-tabIndicator, none);
+}
