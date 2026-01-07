@@ -31,3 +31,11 @@ Notes Page
         color: var(--chromahonSM__secondaryPanel-itemFocus-label);
     }
 }
+
+/* Textarea */
+._1Ve4VFO2EEkeNZdel_Asky {
+    background: transparent;
+    color: var(--chromahonSM__tertiaryPanel-fg);
+    border: 2px solid var(--chromahonSM__tertiaryPanel-fg);
+    box-shadow: none;
+}

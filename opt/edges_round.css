@@ -47,3 +47,8 @@
 ._1-nHjRywUoX7Mpyc6JOPaQ ._2_0JonK7eKEvh8IoOvq0-B {
     border-radius: var(--chromahonSM__Opt_toggleRound_small-radius);
 }
+
+/* Tertiary Panel > Notes > Textarea */
+._1Ve4VFO2EEkeNZdel_Asky {
+    border-radius: var(--chromahonSM__Opt_toggleRound_moderate-radius);
+}
