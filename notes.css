@@ -1,0 +1,33 @@
+/* ---
+Chromahon (Steam Menu)
+Notes Page
+--- */
+
+/* Navigation Container */
+._1d6VIquCc410kNE7rDAje6 {
+    background: var(--chromahonSM__secondaryPanel-bg);
+}
+
+/* Note Item */
+._4niDTAfIpKQoRx-CR_3K {
+    color: var(--chromahonSM__secondaryPanel-item-label);
+}
+
+/* Note Item Active */
+._2mL2HfT5AkDXRi1YBnRWKa._1ELdDY5kb5jxjXe-FpWBo5 {
+    background: transparent;
+
+    & ._4niDTAfIpKQoRx-CR_3K {
+        font-weight: bold;
+    }
+}
+
+/* Note Item Focus */
+._2mL2HfT5AkDXRi1YBnRWKa:focus {
+    animation: none;
+    background: var(--chromahonSM__secondaryPanel-itemFocus-bg);
+
+    & ._4niDTAfIpKQoRx-CR_3K {
+        color: var(--chromahonSM__secondaryPanel-itemFocus-label);
+    }
+}

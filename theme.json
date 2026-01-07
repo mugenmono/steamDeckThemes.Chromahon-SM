@@ -8,7 +8,12 @@
         "default": ["MainMenu.*"]
     },
     "inject": {
-        "base.css": []
+        "base.css": [],
+        "controller.css": [],
+        "achievements.css": [],
+        "guides.css": [],
+        "notes.css": [],
+        "game-recording.css": []
     },
     "patches": {
         "Edges": {
@@ -1064,11 +1069,13 @@
                 },
                 "Solid Colors": {
                     "opt/underline_secondaryPanel-itemFocus.css": [],
+                    "opt/underline_tertiaryPanel-itemFocus.css": [],
                     "parts/secondaryPanel/itemFocus/underline-solidColors.css": [],
                     "parts/_dependencies/Anim_colorChange.css": []
                 },
                 "H-Linear Grad": {
                     "opt/underline_secondaryPanel-itemFocus.css": [],
+                    "opt/underline_tertiaryPanel-itemFocus.css": [],
                     "parts/secondaryPanel/itemFocus/underline-hLinearGrad.css": [],
                     "parts/_dependencies/Anim_hLinearGrad.css": []
                 }
@@ -1225,6 +1232,201 @@
                 "No": {
                 }
             }
+        },
+        "Tertiary Panel > Background": {
+            "type": "slider",
+            "default": "Solid Color",
+            "values": {
+                "Solid Color": {
+                },
+                "H-Linear Grad": {
+                    "parts/tertiaryPanel/hLinearGrad.css": [],
+                    "parts/_dependencies/Anim_hLinearGrad.css": []
+                },
+                "V-Linear Grad": {
+                    "parts/tertiaryPanel/vLinearGrad.css": [],
+                    "parts/_dependencies/Anim_vLinearGrad.css": []
+                },
+                "Radial Grad": {
+                    "parts/tertiaryPanel/radialGrad.css": [],
+                    "parts/_dependencies/Anim_gradPulse.css": []
+                },
+                "Halos": {
+                    "parts/tertiaryPanel/halos.css": [],
+                    "parts/_dependencies/Anim_5ColorGrad.css": []
+                },
+                "Stripes": {
+                    "parts/tertiaryPanel/stripes.css": []
+                },
+                "IMG": {
+                    "parts/tertiaryPanel/img.css": []
+                }
+            },
+            "components": [
+                {
+                    "name": "Solid Color",
+                    "type": "color-picker",
+                    "on": "Solid Color",
+                    "default": "#0f0f0f",
+                    "css_variable": "chromahonSM__tertiaryPanel-bg",
+                    "tabs": []
+                },
+                {
+                    "name": "H-Linear Grad 1",
+                    "type": "color-picker",
+                    "on": "H-Linear Grad",
+                    "default": "#eb506f",
+                    "css_variable": "chromahonSM__tertiaryPanel-bg-c1",
+                    "tabs": []
+                },
+                {
+                    "name": "H-Linear Grad 2",
+                    "type": "color-picker",
+                    "on": "H-Linear Grad",
+                    "default": "#50baeb",
+                    "css_variable": "chromahonSM__tertiaryPanel-bg-c2",
+                    "tabs": []
+                },
+                {
+                    "name": "V-Linear Grad 1",
+                    "type": "color-picker",
+                    "on": "V-Linear Grad",
+                    "default": "#eb506f",
+                    "css_variable": "chromahonSM__tertiaryPanel-bg-c1",
+                    "tabs": []
+                },
+                {
+                    "name": "V-Linear Grad 2",
+                    "type": "color-picker",
+                    "on": "V-Linear Grad",
+                    "default": "#50eb79",
+                    "css_variable": "chromahonSM__tertiaryPanel-bg-c2",
+                    "tabs": []
+                },
+                {
+                    "name": "V-Linear Grad 3",
+                    "type": "color-picker",
+                    "on": "V-Linear Grad",
+                    "default": "#50baeb",
+                    "css_variable": "chromahonSM__tertiaryPanel-bg-c3",
+                    "tabs": []
+                },
+                {
+                    "name": "Radial Grad 1",
+                    "type": "color-picker",
+                    "on": "Radial Grad",
+                    "default": "#eb506f",
+                    "css_variable": "chromahonSM__tertiaryPanel-bg-c1",
+                    "tabs": []
+                },
+                {
+                    "name": "Radial Grad 2",
+                    "type": "color-picker",
+                    "on": "Radial Grad",
+                    "default": "#50eb79",
+                    "css_variable": "chromahonSM__tertiaryPanel-bg-c2",
+                    "tabs": []
+                },
+                {
+                    "name": "Halo 1",
+                    "type": "color-picker",
+                    "on": "Halos",
+                    "default": "#eb506f",
+                    "css_variable": "chromahonSM__tertiaryPanel-bg-c1",
+                    "tabs": []
+                },
+                {
+                    "name": "Halo 2",
+                    "type": "color-picker",
+                    "on": "Halos",
+                    "default": "#50eb79",
+                    "css_variable": "chromahonSM__tertiaryPanel-bg-c2",
+                    "tabs": []
+                },
+                {
+                    "name": "Halo 3",
+                    "type": "color-picker",
+                    "on": "Halos",
+                    "default": "#50baeb",
+                    "css_variable": "chromahonSM__tertiaryPanel-bg-c3",
+                    "tabs": []
+                },
+                {
+                    "name": "Halo 4",
+                    "type": "color-picker",
+                    "on": "Halos",
+                    "default": "#dff261",
+                    "css_variable": "chromahonSM__tertiaryPanel-bg-c4",
+                    "tabs": []
+                },
+                {
+                    "name": "Halo 5",
+                    "type": "color-picker",
+                    "on": "Halos",
+                    "default": "#b161f2",
+                    "css_variable": "chromahonSM__tertiaryPanel-bg-c5",
+                    "tabs": []
+                },
+                                {
+                    "name": "Stripe 1",
+                    "type": "color-picker",
+                    "on": "Stripes",
+                    "default": "#eb506f",
+                    "css_variable": "chromahonSM__tertiaryPanel-bg-c1",
+                    "tabs": []
+                },
+                {
+                    "name": "Stripe 2",
+                    "type": "color-picker",
+                    "on": "Stripes",
+                    "default": "#50eb79",
+                    "css_variable": "chromahonSM__tertiaryPanel-bg-c2",
+                    "tabs": []
+                },
+                {
+                    "name": "Stripe 3",
+                    "type": "color-picker",
+                    "on": "Stripes",
+                    "default": "#50baeb",
+                    "css_variable": "chromahonSM__tertiaryPanel-bg-c3",
+                    "tabs": []
+                },
+                {
+                    "name": "Image Picker",
+                    "type": "image-picker",
+                    "on": "IMG",
+                    "default": "",
+                    "css_variable": "chromahonSM__tertiaryPanel-bg",
+                    "tabs": []
+                }
+            ]
+        },
+        "Tertiary Panel > Bg Anim": {
+            "type": "checkbox",
+            "default": "No",
+            "values": {
+                "Yes": {
+                    "opt/toggleAnim_tertiaryPanel-bg.css": []
+                },
+                "No": {
+                }
+            }
+        },
+        "Tertiary Panel > Foreground": {
+            "type": "none",
+            "values": {
+                "_": {}
+            },
+            "components": [
+                {
+                    "name": "Color",
+                    "type": "color-picker",
+                    "on": "_",
+                    "default": "#202020",
+                    "css_variable": "chromahonSM__tertiaryPanel-fg",
+                    "tabs": []
+                }
+            ]
         }
     }
 }

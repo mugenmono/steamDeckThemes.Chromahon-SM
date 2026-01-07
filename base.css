@@ -114,3 +114,34 @@ img._1YOtw_FX984Co0vVkeUTDc {
     background: var(--chromahonSM__secondaryPanel-tabIndicator);
     animation: var(--chromahonSM__Opt_toggleAnim_secondaryPanel-tabIndicator, none);
 }
+
+/* ---
+Tertiary Panel
+Paged Content via Secondary Panel
+--- */
+
+/* Parent div's underlying background */
+.sfthxkhui6WSgvnbllI_n {
+    background: transparent;
+}
+
+/* Actual Container */
+.RAI0lLN8sCtqCMI36rLiB {
+    background: var(--chromahonSM__tertiaryPanel-bg);
+    animation: var(--chromahonSM__Opt_toggleAnim_tertiaryPanel-bg, none);
+}
+
+/* Actual Container Focus */
+.RAI0lLN8sCtqCMI36rLiB._3moC2HsDsMTWYCzhAnW4tu {
+    background: var(--chromahonSM__tertiaryPanel-bg);
+    animation: var(--chromahonSM__Opt_toggleAnim_tertiaryPanel-bg, none);
+}
+
+/* Loading Throbber */
+.loadingthrobber_ContainerBackground_2ngG3 {
+    background: none;
+
+    & img {
+        filter: grayscale(100%);
+    }
+}

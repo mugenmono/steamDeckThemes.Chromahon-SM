@@ -9,3 +9,18 @@
     border-top-left-radius: var(--chromahonSM__Opt_toggleRound_hard-radius);
     border-bottom-left-radius: var(--chromahonSM__Opt_toggleRound_hard-radius);
 }
+
+/* Tertiary Panel > Achievements > Tab List */
+._3eEbSktrstBdLk0dVpnKVI {
+    border-radius: var(--chromahonSM__Opt_toggleRound_moderate-radius);
+}
+
+/* Tertiary Panel > Achievements > Progress Bar Rail */
+._1-nHjRywUoX7Mpyc6JOPaQ {
+    border-radius: var(--chromahonSM__Opt_toggleRound_small-radius);
+}
+
+/* Tertiary Panel > Achievements > Progress Bar Fill */
+._1-nHjRywUoX7Mpyc6JOPaQ ._2_0JonK7eKEvh8IoOvq0-B {
+    border-radius: var(--chromahonSM__Opt_toggleRound_small-radius);
+}
