@@ -486,11 +486,13 @@
                 },
                 "Solid Colors": {
                     "opt/underline_primaryPanel-itemFocus.css": [],
+                    "opt/underline_tertiaryPanel-itemFocus.css": [],
                     "parts/primaryPanel/itemFocus/underline-solidColors.css": [],
                     "parts/_dependencies/Anim_colorChange.css": []
                 },
                 "H-Linear Grad": {
                     "opt/underline_primaryPanel-itemFocus.css": [],
+                    "opt/underline_tertiaryPanel-itemFocus.css": [],
                     "parts/primaryPanel/itemFocus/underline-hLinearGrad.css": [],
                     "parts/_dependencies/Anim_hLinearGrad.css": []
                 }
