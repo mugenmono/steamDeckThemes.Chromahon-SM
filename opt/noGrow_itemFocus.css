@@ -8,6 +8,12 @@
 ._2b6L36XnXUqFHHkGE4_2mv._1U3OjZG3cOt5OhO_lKAXI0 {
     transform: none;
 }
+._2b6L36XnXUqFHHkGE4_2mv {
+    transition: none;
+}
+._2b6L36XnXUqFHHkGE4_2mv.gpfocus {
+    font-size: 1em;
+}
 
 /* Tertiary Panel */
 ._2mL2HfT5AkDXRi1YBnRWKa:focus,
