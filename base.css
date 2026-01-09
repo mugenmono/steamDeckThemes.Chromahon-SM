@@ -9,7 +9,6 @@ Primary Panel
 
 /* Container */
 ._23IDiI-F_FxXotrgpY71r8 {
-    justify-content: var(--chromahonSM__Opt_primaryPanel-position);
     background: var(--chromahonSM__primaryPanel-bg);
     animation: var(--chromahonSM__Opt_toggleAnim_primaryPanel-bg, none);
 

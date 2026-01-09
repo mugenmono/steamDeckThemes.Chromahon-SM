@@ -32,21 +32,6 @@
                 }
             }
         },
-        "Primary Panel > Position": {
-            "type": "slider",
-            "default": "Center",
-            "values": {
-                "Top": {
-                    "--chromahonSM__Opt_primaryPanel-position": ["flex-start"]
-                },
-                "Center": {
-                    "--chromahonSM__Opt_primaryPanel-position": ["center"]
-                },
-                "Bottom": {
-                    "--chromahonSM__Opt_primaryPanel-position": ["flex-end"]
-                }
-            }
-        },
         "Primary Panel > Background": {
             "type": "slider",
             "default": "Solid Color",
