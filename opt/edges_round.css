@@ -5,6 +5,12 @@
     align-items: center;
 }
 
+/* App Icon */
+.BasicUI ._2E7G8grj_-tgxXbTXs1t2E {
+    border-radius: var(--chromahonSM__Opt_toggleRound_small-radius);
+    overflow: hidden;
+}
+
 /* Primary Panel > Item */
 [class="_1BbM8Qq8OL5N8gL4PYH397"] {
     border-radius: var(--chromahonSM__Opt_toggleRound_strong-radius);
