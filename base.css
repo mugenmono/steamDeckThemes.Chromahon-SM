@@ -1,5 +1,10 @@
 /* ---
 Chromahon (Steam Menu)
+Core Template
+
+Defines which UI elements are to be styled by default
+Actual styles for those elements ('Flavors') have their implementation living in the ./parts folder
+./opt may contain additional elements and adjustments that map with togglable CSS Loader patches in theme.json ("type": "checkbox")
 --- */
 
 

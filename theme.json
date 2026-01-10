@@ -16,6 +16,37 @@
         "game-recording.css": []
     },
     "patches": {
+        "➤ USAGE NOTES": {
+            "type": "none",
+            "values": {
+                "_": {}
+            }
+        },
+        "Primary Panel = Home, Library, etc.": {
+            "type": "none",
+            "values": {
+                "_": {}
+            }
+        },
+        "Secondary Panel = Resume game, Controller settings, etc. (In Game Only)": {
+            "type": "none",
+            "values": {
+                "_": {}
+            }
+        },
+        "Tertiary Panel = Paged content (In Game Only)": {
+            "type": "none",
+            "values": {
+                "_": {
+                }
+            }
+        },
+        "➤ Global Settings": {
+            "type": "none",
+            "values": {
+                "_": {}
+            }
+        },
         "Edges": {
             "type": "slider",
             "default": "Semi-Round",
@@ -30,6 +61,40 @@
                     "opt/edges_common.css": [],
                     "opt/edges_round.css": []
                 }
+            }
+        },
+        "Item Focus Grow Anim": {
+            "type": "checkbox",
+            "default": "Yes",
+            "values": {
+                "Yes": {
+                },
+                "No": {
+                    "opt/noGrow_itemFocus.css": []
+                }
+            }
+        },
+        "Active Tab Indicator Type": {
+            "type": "slider",
+            "default": "Default",
+            "values": {
+                "Default": {
+                },
+                "Wide": {
+                    "opt/tabIndicator_wide.css": []
+                },
+                "Dot": {
+                    "opt/tabIndicator_dot.css": []
+                },
+                "None": {
+                    "opt/tabIndicator_none.css": []
+                }
+            }
+        },
+        "➤ Primary Panel": {
+            "type": "none",
+            "values": {
+                "_": {}
             }
         },
         "Primary Panel > Background": {
@@ -200,7 +265,7 @@
                 }
             ]
         },
-        "Primary Panel > Bg Anim": {
+        "Primary Panel > Bg Anim (Not on Solid Color, Stripes, IMG)": {
             "type": "checkbox",
             "default": "No",
             "values": {
@@ -419,7 +484,7 @@
                 }
             ]
         },
-        "Primary Panel > Item Focus Bg Anim": {
+        "Primary Panel > Item Focus Bg Anim (Not on Stripes)": {
             "type": "checkbox",
             "default": "Yes",
             "values": {
@@ -550,17 +615,6 @@
                 }
             }
         },
-        "Item Focus Grow Anim": {
-            "type": "checkbox",
-            "default": "Yes",
-            "values": {
-                "Yes": {
-                },
-                "No": {
-                    "opt/noGrow_itemFocus.css": []
-                }
-            }
-        },
         "Primary Panel > Active Tab Indicator": {
             "type": "slider",
             "default": "Solid Colors",
@@ -643,21 +697,10 @@
                 }
             }
         },
-        "Active Tab Indicator Type": {
-            "type": "slider",
-            "default": "Default",
+        "➤ Secondary Panel": {
+            "type": "none",
             "values": {
-                "Default": {
-                },
-                "Wide": {
-                    "opt/tabIndicator_wide.css": []
-                },
-                "Dot": {
-                    "opt/tabIndicator_dot.css": []
-                },
-                "None": {
-                    "opt/tabIndicator_none.css": []
-                }
+                "_": {}
             }
         },
         "Secondary Panel > Background": {
@@ -828,7 +871,7 @@
                 }
             ]
         },
-        "Secondary Panel > Bg Anim": {
+        "Secondary Panel > Bg Anim (Not on Solid Color, Stripes, IMG)": {
             "type": "checkbox",
             "default": "No",
             "values": {
@@ -1017,7 +1060,7 @@
                 }
             ]
         },
-        "Secondary Panel > Item Focus Bg Anim": {
+        "Secondary Panel > Item Focus Bg Anim (Not on Stripes)": {
             "type": "checkbox",
             "default": "Yes",
             "values": {
@@ -1214,6 +1257,12 @@
                 }
             }
         },
+        "➤ Tertiary Panel": {
+            "type": "none",
+            "values": {
+                "_": {}
+            }
+        },
         "Tertiary Panel > Background": {
             "type": "slider",
             "default": "Solid Color",
@@ -1382,7 +1431,7 @@
                 }
             ]
         },
-        "Tertiary Panel > Bg Anim": {
+        "Tertiary Panel > Bg Anim (Not on Solid Color, Stripes, IMG)": {
             "type": "checkbox",
             "default": "No",
             "values": {
