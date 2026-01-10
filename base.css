@@ -61,9 +61,23 @@ Primary Panel
 }
 
 /* Active tab indicator */
+/*  Animations do not apply on the base class below, which is why we use a pseudo-element hack instead */
 [class="_1BbM8Qq8OL5N8gL4PYH397"] [class="_1uLVHdiiCg78BRnhqLxUID"] {
-    background: var(--chromahonSM__primaryPanel-tabIndicator) !important;
-    animation: var(--chromahonSM__Opt_toggleAnim_primaryPanel-tabIndicator, none) !important;
+    position: relative;
+    left: -26px;
+    width: 0 !important;
+    background: transparent;
+}
+
+[class="_1BbM8Qq8OL5N8gL4PYH397"] [class="_1uLVHdiiCg78BRnhqLxUID"]::after {
+    position: absolute;
+    top: 0;
+    content: "";
+    background: var(--chromahonSM__primaryPanel-tabIndicator);
+    animation: var(--chromahonSM__Opt_toggleAnim_primaryPanel-tabIndicator, none);
+    /* restore Steam's defaults */
+    width: 10px; height: 100%;
+    border-radius: 6px;
 }
 
 /* ---

@@ -1,8 +1,10 @@
 /* Primary Panel */
 [class="_1BbM8Qq8OL5N8gL4PYH397"] [class="_1uLVHdiiCg78BRnhqLxUID"] {
-    position: relative;
     left: -10px;
     width: 10px !important; height: 10px !important;
+}
+
+[class="_1BbM8Qq8OL5N8gL4PYH397"] [class="_1uLVHdiiCg78BRnhqLxUID"]::after {
     border-radius: 100%;
 }
 
