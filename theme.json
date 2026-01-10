@@ -4,6 +4,10 @@
     "author": "Mugen",
     "version": "v3.0.0",
     "manifest_version": 9,
+    "dependencies": {
+		"CapyInputs": {}
+	},
+	"flags": ["OPTIONAL_DEPENDENCIES"],
     "tabs": {
         "default": ["MainMenu.*"]
     },
