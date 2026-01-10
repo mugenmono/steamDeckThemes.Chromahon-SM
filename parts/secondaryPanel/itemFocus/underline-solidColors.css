@@ -4,13 +4,27 @@ Chromahon (Steam Menu)
 Part: secondaryPanel > itemFocus-underline
 Flavor: Solid Colors
 Dependencies (see theme.json):
-    Anim_colorChange.css
+    None
 --- */
 
 :root {
-    --chromahonSM__Anim_secondaryPanel-itemFocus-underline: chromahonSM__Anim_colorChange 4s infinite ease-in-out alternate;
-        --chromahonSM__AnimParam_colorChange-c1: var(--chromahonSM__secondaryPanel-itemFocus-underline);
-        --chromahonSM__AnimParam_colorChange-c2: var(--chromahonSM__secondaryPanel-itemFocus-underline-c2);
-        --chromahonSM__AnimParam_colorChange-c3: var(--chromahonSM__secondaryPanel-itemFocus-underline-c3);
-        --chromahonSM__AnimParam_colorChange-c4: var(--chromahonSM__secondaryPanel-itemFocus-underline-c4);
+    --chromahonSM__Anim_secondaryPanel-itemFocus-underline: chromahonSM__Anim_colorChange_secondaryPanel-underline 4s infinite ease-in-out alternate;
+}
+
+@keyframes chromahonSM__Anim_colorChange_secondaryPanel-underline {
+    0% {
+        background: var(--chromahonSM__secondaryPanel-itemFocus-underline);
+    }
+    25% {
+        background: var(--chromahonSM__secondaryPanel-itemFocus-underline-c2);
+    }
+    50% {
+        background: var(--chromahonSM__secondaryPanel-itemFocus-underline-c3);
+    }
+    75% {
+        background: var(--chromahonSM__secondaryPanel-itemFocus-underline-c4);
+    }
+    100% {
+        background: var(--chromahonSM__secondaryPanel-itemFocus-underline);
+    }
 }

@@ -262,8 +262,7 @@
             "default": "Halos",
             "values": {
                 "Solid Colors": {
-                    "parts/primaryPanel/itemFocus/bg-solidColors.css": [],
-                    "parts/_dependencies/Anim_colorChange.css": []
+                    "parts/primaryPanel/itemFocus/bg-solidColors.css": []
                 },
                 "H-Linear Grad": {
                     "parts/primaryPanel/itemFocus/bg-hLinearGrad.css": [],
@@ -472,8 +471,7 @@
                 "Solid Colors": {
                     "opt/underline_primaryPanel-itemFocus.css": [],
                     "opt/underline_tertiaryPanel-itemFocus.css": [],
-                    "parts/primaryPanel/itemFocus/underline-solidColors.css": [],
-                    "parts/_dependencies/Anim_colorChange.css": []
+                    "parts/primaryPanel/itemFocus/underline-solidColors.css": []
                 },
                 "H-Linear Grad": {
                     "opt/underline_primaryPanel-itemFocus.css": [],
@@ -568,8 +566,7 @@
             "default": "Solid Colors",
             "values": {
                 "Solid Colors": {
-                    "parts/primaryPanel/tabIndicator-solidColors.css": [],
-                    "parts/_dependencies/Anim_colorChange.css": []
+                    "parts/primaryPanel/tabIndicator-solidColors.css": []
                 },
                 "V-Linear Grad": {
                     "parts/primaryPanel/tabIndicator-vLinearGrad.css": [],
@@ -863,8 +860,7 @@
             "default": "Halos",
             "values": {
                 "Solid Colors": {
-                    "parts/secondaryPanel/itemFocus/bg-solidColors.css": [],
-                    "parts/_dependencies/Anim_colorChange.css": []
+                    "parts/secondaryPanel/itemFocus/bg-solidColors.css": []
                 },
                 "H-Linear Grad": {
                     "parts/secondaryPanel/itemFocus/bg-hLinearGrad.css": [],
@@ -1057,8 +1053,7 @@
                 "Solid Colors": {
                     "opt/underline_secondaryPanel-itemFocus.css": [],
                     "opt/underline_tertiaryPanel-itemFocus.css": [],
-                    "parts/secondaryPanel/itemFocus/underline-solidColors.css": [],
-                    "parts/_dependencies/Anim_colorChange.css": []
+                    "parts/secondaryPanel/itemFocus/underline-solidColors.css": []
                 },
                 "H-Linear Grad": {
                     "opt/underline_secondaryPanel-itemFocus.css": [],
@@ -1142,8 +1137,7 @@
             "default": "Solid Colors",
             "values": {
                 "Solid Colors": {
-                    "parts/secondaryPanel/tabIndicator-solidColors.css": [],
-                    "parts/_dependencies/Anim_colorChange.css": []
+                    "parts/secondaryPanel/tabIndicator-solidColors.css": []
                 },
                 "V-Linear Grad": {
                     "parts/secondaryPanel/tabIndicator-vLinearGrad.css": [],

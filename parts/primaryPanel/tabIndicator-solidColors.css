@@ -4,13 +4,27 @@ Chromahon (Steam Menu)
 Part: primaryPanel-tabIndicator
 Flavor: Solid Colors
 Dependencies (see theme.json):
-    Anim_colorChange.css
+    None
 --- */
 
 :root {
-    --chromahonSM__Anim_primaryPanel-tabIndicator: chromahonSM__Anim_colorChange 4s infinite ease-in-out alternate;
-        --chromahonSM__AnimParam_colorChange-c1: var(--chromahonSM__primaryPanel-tabIndicator);
-        --chromahonSM__AnimParam_colorChange-c2: var(--chromahonSM__primaryPanel-tabIndicator-c2);
-        --chromahonSM__AnimParam_colorChange-c3: var(--chromahonSM__primaryPanel-tabIndicator-c3);
-        --chromahonSM__AnimParam_colorChange-c4: var(--chromahonSM__primaryPanel-tabIndicator-c4);
+    --chromahonSM__Anim_primaryPanel-tabIndicator: chromahonSM__Anim_colorChange_primaryPanel-tabIndicator 4s infinite ease-in-out alternate;
+}
+
+@keyframes chromahonSM__Anim_colorChange_primaryPanel-tabIndicator {
+    0% {
+        background: var(--chromahonSM__primaryPanel-tabIndicator);
+    }
+    25% {
+        background: var(--chromahonSM__primaryPanel-tabIndicator-c2);
+    }
+    50% {
+        background: var(--chromahonSM__primaryPanel-tabIndicator-c3);
+    }
+    75% {
+        background: var(--chromahonSM__primaryPanel-tabIndicator-c4);
+    }
+    100% {
+        background: var(--chromahonSM__primaryPanel-tabIndicator);
+    }
 }

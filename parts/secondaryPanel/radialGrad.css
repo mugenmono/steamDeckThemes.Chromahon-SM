@@ -15,8 +15,4 @@ Dependencies (see theme.json):
     );
     
     --chromahonSM__Anim_secondaryPanel-bg: chromahonSM__Anim_gradPulse 12s infinite ease-in-out alternate;
-        --chromahonSM__AnimParam_gradPulse-x1: 100%;
-        --chromahonSM__AnimParam_gradPulse-y1: 100%;
-        --chromahonSM__AnimParam_gradPulse-x2: 200%;
-        --chromahonSM__AnimParam_gradPulse-y2: 200%;
 }
