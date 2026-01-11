@@ -54,6 +54,18 @@
     border-radius: var(--chromahonSM__Opt_toggleRound_small-radius);
 }
 
+/* Tertiary Panel > Notes > Item List */
+.gNwozyl1BAcDyyhUKvx1Y {
+    padding: 12px 12px;
+}
+
+/* Tertiary Panel > Notes > Item */
+._4niDTAfIpKQoRx-CR_3K,
+._2mL2HfT5AkDXRi1YBnRWKa._1ELdDY5kb5jxjXe-FpWBo5 {
+    border-radius: var(--chromahonSM__Opt_toggleRound_moderate-radius);
+    clip-path: none;
+}
+
 /* Tertiary Panel > Notes > Textarea */
 ._1Ve4VFO2EEkeNZdel_Asky {
     border-radius: var(--chromahonSM__Opt_toggleRound_moderate-radius);

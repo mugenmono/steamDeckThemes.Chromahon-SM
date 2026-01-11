@@ -11,11 +11,13 @@ Notes Page
 /* Note Item */
 ._4niDTAfIpKQoRx-CR_3K {
     color: var(--chromahonSM__secondaryPanel-item-label);
+    transition: font-size .05s ease;
 }
 
 /* Note Item Active */
 ._2mL2HfT5AkDXRi1YBnRWKa._1ELdDY5kb5jxjXe-FpWBo5 {
     background: transparent;
+    transform: none;
 
     & ._4niDTAfIpKQoRx-CR_3K {
         font-weight: bold;
@@ -26,6 +28,7 @@ Notes Page
 ._2mL2HfT5AkDXRi1YBnRWKa:focus {
     animation: none;
     background: var(--chromahonSM__secondaryPanel-itemFocus-bg);
+    font-size: 1.1em;
 
     & ._4niDTAfIpKQoRx-CR_3K {
         color: var(--chromahonSM__secondaryPanel-itemFocus-label);
@@ -38,4 +41,15 @@ Notes Page
     color: var(--chromahonSM__tertiaryPanel-fg);
     border: 2px solid var(--chromahonSM__tertiaryPanel-fg);
     box-shadow: none;
+}
+
+/* Improve spacing surrounding the 'Add Note' button */
+div:has(.tool-tip-source) {
+    display: flex;
+    justify-content: center;
+    
+    & .tool-tip-source {
+        width: 90%;
+        margin-bottom: 12px;
+    }
 }
