@@ -69,7 +69,7 @@
         },
         "Item Focus Grow Anim": {
             "type": "checkbox",
-            "default": "Yes",
+            "default": "No",
             "values": {
                 "Yes": {
                 },
@@ -80,7 +80,7 @@
         },
         "Active Tab Indicator Type": {
             "type": "slider",
-            "default": "Default",
+            "default": "None",
             "values": {
                 "Default": {
                 },
@@ -103,7 +103,7 @@
         },
         "Primary Panel > Background": {
             "type": "slider",
-            "default": "Solid Color",
+            "default": "Halos",
             "values": {
                 "Solid Color": {
                 },
@@ -199,7 +199,7 @@
                     "name": "Halo 1",
                     "type": "color-picker",
                     "on": "Halos",
-                    "default": "#eb506f",
+                    "default": "#171717",
                     "css_variable": "chromahonSM__primaryPanel-bg-c1",
                     "tabs": []
                 },
@@ -207,7 +207,7 @@
                     "name": "Halo 2",
                     "type": "color-picker",
                     "on": "Halos",
-                    "default": "#50eb79",
+                    "default": "#1f1f1f",
                     "css_variable": "chromahonSM__primaryPanel-bg-c2",
                     "tabs": []
                 },
@@ -215,7 +215,7 @@
                     "name": "Halo 3",
                     "type": "color-picker",
                     "on": "Halos",
-                    "default": "#50baeb",
+                    "default": "#171717",
                     "css_variable": "chromahonSM__primaryPanel-bg-c3",
                     "tabs": []
                 },
@@ -223,7 +223,7 @@
                     "name": "Halo 4",
                     "type": "color-picker",
                     "on": "Halos",
-                    "default": "#dff261",
+                    "default": "#121212",
                     "css_variable": "chromahonSM__primaryPanel-bg-c4",
                     "tabs": []
                 },
@@ -231,7 +231,7 @@
                     "name": "Halo 5",
                     "type": "color-picker",
                     "on": "Halos",
-                    "default": "#b161f2",
+                    "default": "#141414",
                     "css_variable": "chromahonSM__primaryPanel-bg-c5",
                     "tabs": []
                 },
@@ -282,7 +282,7 @@
         },
         "Primary Panel > Collapse Bg": {
             "type": "checkbox",
-            "default": "Yes",
+            "default": "No",
             "values": {
                 "Yes": {
                     "opt/collapseBg_primaryPanel.css": []
@@ -301,7 +301,7 @@
                     "name": "Color",
                     "type": "color-picker",
                     "on": "_",
-                    "default": "#202020",
+                    "default": "#f0f0f0",
                     "css_variable": "chromahonSM__primaryPanel-item-label",
                     "tabs": []
                 }
@@ -309,6 +309,7 @@
         },
         "Primary Panel > Item Icon": {
             "type": "slider",
+            "default": "Solid Color",
             "values": {
                 "Solid Color": {},
                 "Hide": {
@@ -320,7 +321,7 @@
                     "name": "Color",
                     "type": "color-picker",
                     "on": "Solid Color",
-                    "default": "#202020",
+                    "default": "#f0f0f0",
                     "css_variable": "chromahonSM__primaryPanel-item-svg",
                     "tabs": []
                 }
@@ -328,7 +329,7 @@
         },
         "Primary Panel > Item Focus Background": {
             "type": "slider",
-            "default": "Halos",
+            "default": "Solid Colors",
             "values": {
                 "Solid Colors": {
                     "parts/primaryPanel/itemFocus/bg-solidColors.css": []
@@ -354,7 +355,7 @@
                     "name": "Color 1",
                     "type": "color-picker",
                     "on": "Solid Colors",
-                    "default": "#d1d1d1",
+                    "default": "#0f0f0f",
                     "css_variable": "chromahonSM__primaryPanel-itemFocus-bg",
                     "tabs": []
                 },
@@ -490,7 +491,7 @@
         },
         "Primary Panel > Item Focus Bg Anim (Not on Stripes)": {
             "type": "checkbox",
-            "default": "Yes",
+            "default": "No",
             "values": {
                 "Yes": {
                     "opt/toggleAnim_primaryPanel-itemFocus-bg.css": []
@@ -509,7 +510,7 @@
                     "name": "Color",
                     "type": "color-picker",
                     "on": "_",
-                    "default": "#202020",
+                    "default": "#f5f5f5",
                     "css_variable": "chromahonSM__primaryPanel-itemFocus-label",
                     "tabs": []
                 }
@@ -525,7 +526,7 @@
                     "name": "Color",
                     "type": "color-picker",
                     "on": "_",
-                    "default": "#202020",
+                    "default": "#f5f5f5",
                     "css_variable": "chromahonSM__primaryPanel-itemFocus-svg",
                     "tabs": []
                 }
@@ -586,7 +587,7 @@
                     "name": "H-Linear Grad 1",
                     "type": "color-picker",
                     "on": "H-Linear Grad",
-                    "default": "#eb506f",
+                    "default": "#40dce7",
                     "css_variable": "chromahonSM__primaryPanel-itemFocus-underline-c1",
                     "tabs": []
                 },
@@ -594,7 +595,7 @@
                     "name": "H-Linear Grad 2",
                     "type": "color-picker",
                     "on": "H-Linear Grad",
-                    "default": "#50eb79",
+                    "default": "#ffe666",
                     "css_variable": "chromahonSM__primaryPanel-itemFocus-underline-c2",
                     "tabs": []
                 },
@@ -602,7 +603,7 @@
                     "name": "H-Linear Grad 3",
                     "type": "color-picker",
                     "on": "H-Linear Grad",
-                    "default": "#50baeb",
+                    "default": "#ca1c67",
                     "css_variable": "chromahonSM__primaryPanel-itemFocus-underline-c3",
                     "tabs": []
                 }
@@ -692,7 +693,7 @@
         },
         "Primary Panel > Active Tab Indicator Anim": {
             "type": "checkbox",
-            "default": "Yes",
+            "default": "No",
             "values": {
                 "Yes": {
                     "opt/toggleAnim_primaryPanel-tabIndicator.css": []
@@ -709,7 +710,7 @@
         },
         "Secondary Panel > Background": {
             "type": "slider",
-            "default": "Solid Color",
+            "default": "Halos",
             "values": {
                 "Solid Color": {
                 },
@@ -805,7 +806,7 @@
                     "name": "Halo 1",
                     "type": "color-picker",
                     "on": "Halos",
-                    "default": "#eb506f",
+                    "default": "#80fff0",
                     "css_variable": "chromahonSM__secondaryPanel-bg-c1",
                     "tabs": []
                 },
@@ -813,7 +814,7 @@
                     "name": "Halo 2",
                     "type": "color-picker",
                     "on": "Halos",
-                    "default": "#50eb79",
+                    "default": "#fdffa3",
                     "css_variable": "chromahonSM__secondaryPanel-bg-c2",
                     "tabs": []
                 },
@@ -821,7 +822,7 @@
                     "name": "Halo 3",
                     "type": "color-picker",
                     "on": "Halos",
-                    "default": "#50baeb",
+                    "default": "#ec51a3",
                     "css_variable": "chromahonSM__secondaryPanel-bg-c3",
                     "tabs": []
                 },
@@ -829,7 +830,7 @@
                     "name": "Halo 4",
                     "type": "color-picker",
                     "on": "Halos",
-                    "default": "#dff261",
+                    "default": "#fffaad",
                     "css_variable": "chromahonSM__secondaryPanel-bg-c4",
                     "tabs": []
                 },
@@ -837,7 +838,7 @@
                     "name": "Halo 5",
                     "type": "color-picker",
                     "on": "Halos",
-                    "default": "#b161f2",
+                    "default": "#000000",
                     "css_variable": "chromahonSM__secondaryPanel-bg-c5",
                     "tabs": []
                 },
@@ -904,7 +905,7 @@
         },
         "Secondary Panel > Item Focus Background": {
             "type": "slider",
-            "default": "Halos",
+            "default": "Solid Colors",
             "values": {
                 "Solid Colors": {
                     "parts/secondaryPanel/itemFocus/bg-solidColors.css": []
@@ -930,7 +931,7 @@
                     "name": "Color 1",
                     "type": "color-picker",
                     "on": "Solid Colors",
-                    "default": "#d1d1d1",
+                    "default": "#121212",
                     "css_variable": "chromahonSM__secondaryPanel-itemFocus-bg",
                     "tabs": []
                 },
@@ -1066,7 +1067,7 @@
         },
         "Secondary Panel > Item Focus Bg Anim (Not on Stripes)": {
             "type": "checkbox",
-            "default": "Yes",
+            "default": "No",
             "values": {
                 "Yes": {
                     "opt/toggleAnim_secondaryPanel-itemFocus-bg.css": []
@@ -1085,7 +1086,7 @@
                     "name": "Color",
                     "type": "color-picker",
                     "on": "_",
-                    "default": "#202020",
+                    "default": "#f5f5f5",
                     "css_variable": "chromahonSM__secondaryPanel-itemFocus-label",
                     "tabs": []
                 }
@@ -1093,7 +1094,7 @@
         },
         "Secondary Panel > Item Focus Underline": {
             "type": "slider",
-            "default": "H-Linear Grad",
+            "default": "None",
             "values": {
                 "None": {
                 },
@@ -1170,7 +1171,7 @@
         },
         "Secondary Panel > Item Focus Underline Anim": {
             "type": "checkbox",
-            "default": "Yes",
+            "default": "No",
             "values": {
                 "Yes": {
                     "opt/toggleAnim_secondaryPanel-itemFocus-underline.css": []
@@ -1181,7 +1182,7 @@
         },
         "Secondary Panel > Active Tab Indicator": {
             "type": "slider",
-            "default": "Solid Colors",
+            "default": "V-Linear Grad",
             "values": {
                 "Solid Colors": {
                     "parts/secondaryPanel/tabIndicator-solidColors.css": []
@@ -1252,7 +1253,7 @@
         },
         "Secondary Panel > Active Tab Indicator Anim": {
             "type": "checkbox",
-            "default": "Yes",
+            "default": "No",
             "values": {
                 "Yes": {
                     "opt/toggleAnim_secondaryPanel-tabIndicator.css": []
@@ -1301,7 +1302,7 @@
                     "name": "Solid Color",
                     "type": "color-picker",
                     "on": "Solid Color",
-                    "default": "#0f0f0f",
+                    "default": "#121212",
                     "css_variable": "chromahonSM__tertiaryPanel-bg",
                     "tabs": []
                 },
@@ -1456,7 +1457,7 @@
                     "name": "Color",
                     "type": "color-picker",
                     "on": "_",
-                    "default": "#202020",
+                    "default": "#e3e3e3",
                     "css_variable": "chromahonSM__tertiaryPanel-fg",
                     "tabs": []
                 }
