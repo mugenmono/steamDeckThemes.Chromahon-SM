@@ -39,6 +39,11 @@
     overflow: hidden;
 }
 
+/* Secondary Panel > Active Tab Indicator */
+._2b6L36XnXUqFHHkGE4_2mv ._3Il1BD4p9lccpjISQKhR1X {
+    left: -3px;
+}
+
 /* Tertiary Panel > Achievements > Tab List */
 ._3eEbSktrstBdLk0dVpnKVI {
     border-radius: var(--chromahonSM__Opt_toggleRound_hard-radius);
