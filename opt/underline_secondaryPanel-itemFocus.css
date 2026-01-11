@@ -9,15 +9,5 @@
     width: 100%; height: 4px;
     background: var(--chromahonSM__secondaryPanel-itemFocus-underline);
     animation:
-        var(--chromahonSM__Opt_toggleAnim_secondaryPanel-itemFocus-underline, none),
-        chromahonSM__Anim_underlineSlide .1s ease-in forwards;
-}
-
-@keyframes chromahonSM__Anim_underlineSlide {
-    0% {
-        transform: translateY(4px);
-    }
-    100% {
-        transform: translateY(0);
-    }
+        var(--chromahonSM__Opt_toggleAnim_secondaryPanel-itemFocus-underline, none);
 }
