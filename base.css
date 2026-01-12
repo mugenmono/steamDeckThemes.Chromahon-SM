@@ -74,6 +74,12 @@ Primary Panel
     background: transparent;
 }
 
+/* Active tab indicator Focus */
+[class="_1BbM8Qq8OL5N8gL4PYH397"]:has(.gpfocus) [class="_1uLVHdiiCg78BRnhqLxUID"]::after {
+    background: var(--chromahonSM__primaryPanel-itemFocus-svg);
+    animation: none;
+}
+
 [class="_1BbM8Qq8OL5N8gL4PYH397"] [class="_1uLVHdiiCg78BRnhqLxUID"]::after {
     position: absolute;
     top: 0;
@@ -143,6 +149,12 @@ img._1YOtw_FX984Co0vVkeUTDc {
 ._2b6L36XnXUqFHHkGE4_2mv ._3Il1BD4p9lccpjISQKhR1X {
     background: var(--chromahonSM__secondaryPanel-tabIndicator);
     animation: var(--chromahonSM__Opt_toggleAnim_secondaryPanel-tabIndicator, none);
+}
+
+/* Active Tab Indicator Focus */
+._2b6L36XnXUqFHHkGE4_2mv.gpfocus ._3Il1BD4p9lccpjISQKhR1X {
+    background: var(--chromahonSM__secondaryPanel-itemFocus-label);
+    animation: none;
 }
 
 /* ---
