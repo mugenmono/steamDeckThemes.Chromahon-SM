@@ -147,6 +147,7 @@ img._1YOtw_FX984Co0vVkeUTDc {
 
 /* Active Tab Indicator */
 ._2b6L36XnXUqFHHkGE4_2mv ._3Il1BD4p9lccpjISQKhR1X {
+    left: -2.5px;
     background: var(--chromahonSM__secondaryPanel-tabIndicator);
     animation: var(--chromahonSM__Opt_toggleAnim_secondaryPanel-tabIndicator, none);
 }
