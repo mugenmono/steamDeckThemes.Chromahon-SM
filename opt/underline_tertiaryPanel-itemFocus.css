@@ -4,6 +4,7 @@ Notes Page
 
 ._2mL2HfT5AkDXRi1YBnRWKa:focus {
     position: relative;
+    overflow: hidden;
 }
 
 ._2mL2HfT5AkDXRi1YBnRWKa:focus::after {
